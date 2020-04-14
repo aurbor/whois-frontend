@@ -1,4 +1,4 @@
-## WHOIS React App (Teaching myself the MERN Stack)
+## WHOIS React App Front End (Teaching myself the MERN Stack)
 
 This is a WHOIS/DNS Checking app that I am developing simply to teach myself the MERN stack with a practical concept. The idea is to provide an application that will do DNS lookups via the WHOIS XML DNS API, store those lookups in a MongoDB instance, and check that before doing a fresh lookup. I may move on to attempt to use Redis for this, but this is all just me playing around, learning Bootstrap and the MERN stack.
 
