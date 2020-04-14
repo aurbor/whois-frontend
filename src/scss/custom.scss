@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+$theme-colors: (
+  "primary": #0077d8,
+  "danger": #ff4136
+);
+
+html,body {
+  font-family: 'Sen', sans-serif !important;
+  font-size: 18px;
+}
+
+body {
+  background: url('../img/5.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+
+h1 {
+  font-size: 2em !important;
+}
+
+h2 {
+  font-size: 1.7em !important;
+}
+
+$spacer: 1rem;
+$spacers: ( 0:0);
+@for $i from 1 through 150 {
+  $spacers: map-merge($spacers, (
+  $i: ($i * $spacer)
+  ));
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.search-box {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.table-title {
+  font-size: 1.5em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
