@@ -119,9 +119,9 @@ export default class SearchBox extends Component {
         e.stopPropagation();
         this.setState({domainDnsData: null});
         document.getElementById('aRecordTable-data').innerHTML = null;
-        document.getElementById('cnameRecordTable').className = null;
+        document.getElementById('cnameRecordTable-data').className = null;
         document.getElementById('mxRecordTable-data').innerHTML = null;
-        document.getElementById('txtRecordTable').className = null;
+        document.getElementById('txtRecordTable-data').className = null;
 
         await this.clientDNSLookup();
         //console.log(dnsData);

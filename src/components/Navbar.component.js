@@ -19,9 +19,9 @@ export default class Navbar extends Component {
                 <li className="nav-item active">
                     <a className="nav-link" href="/">DNS Lookup <span className="sr-only">(current)</span></a>
                 </li>
-                <li className="nav-item">
+{/*                 <li className="nav-item">
                     <a className="nav-link" href="/historical">Previous Lookups</a>
-                </li>
+                </li> */}
             </ul>
             </div>
         </div>
